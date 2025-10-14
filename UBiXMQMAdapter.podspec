@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UBiXMQMAdapter'
-  s.version          = '1.3.6.0'
+  s.version          = '1.3.7.0'
   s.summary          = 'UBiX聚合广告变现SDK QuMeng Adapter'
   s.homepage         = 'https://www.ubixai.com/product/md'
   # s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
     'OTHER_LINK_FLAG' => '$(inherited) -ObjC' }
  
   
-  s.dependency 'QuMengAdSDK', '1.3.6'
+  s.dependency 'QuMengAdSDK', '1.3.7'
  s.dependency 'UBiXMediationSDK'
  s.swift_version = '5.0'
 
